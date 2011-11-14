@@ -1,7 +1,7 @@
 // Loads preferences into the UI.
 var defaultURL = "chrome://firemago/content/RM_script.js";
 var defaultMH = "http://games.mountyhall.com";
-var defaultRM = "http://outilsrm.cat-the-psion.net/";
+var defaultRM = "http://outilsrm.free.fr/";
 
 function loadPrefWindow() {
 

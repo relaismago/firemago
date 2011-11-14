@@ -16,9 +16,9 @@
 *    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA  *
 *********************************************************************************/
 
-const versionFM = "2.4";
+const versionFM = "3.4";
 const pageNews = "/mountyhall/MH_Play/Play_news.php";
-const updateScript = "http://outilsrm.cat-the-psion.net/firemago/update.js";
+const updateScript = "http://outilsrm.free.fr/firemago/update.js";
 
 var ShowUpdate;
 var ScriptURL;
@@ -36,7 +36,7 @@ function mzGo() {
 		ShowUpdate = !branch.prefHasUserValue("showupdate") || branch.getBoolPref("showupdate"); // default:true
 		ScriptURL = branch.prefHasUserValue("fileURL") ? branch.getCharPref("fileURL") : "chrome://firemago/content/RM_script.js";
 		MHURL = branch.prefHasUserValue("URLMH") ? branch.getCharPref("URLMH") : "http://games.mountyhall.com";
-		URLRM = branch.prefHasUserValue("URLRM") ? branch.getCharPref("URLRM") : "http://outilsrm.cat-the-psion.net/";
+		URLRM = branch.prefHasUserValue("URLRM") ? branch.getCharPref("URLRM") : "http://outilsrm.free.fr/";
 		
 	} catch(e) {
 		alert(e);
